@@ -15,10 +15,10 @@ if hitung:
 	st.write("Hitungan BMInya adalah ", BMI)
 if kriteria:
 	BMI < 18,5
-	st.write("Berat Badan Kurang", BMI )
+	st.write("Berat Badan Kurang", BMI < 18,5 )
 	BMI >= 18,5 <= 22,9
-	st.write("Berat Badan Normal", BMI)
+	st.write("Berat Badan Normal", BMI >= 18,5 <= 22,9)
 	BMI >= 23 <= 29,9
-	st.write("Berat Badan Berlebih (Obesitas)", BMI)
+	st.write("Berat Badan Berlebih (Obesitas)", BMI >= 18,5 <= 22,9)
 	BMI > 30
-	st.write("Obesitas", BMI)
+	st.write("Obesitas", BMI >= 18,5 <= 22,9)

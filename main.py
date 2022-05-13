@@ -12,6 +12,5 @@ hitung = st.button("Hitung BMI")
 if hitung:
 	BMI = weight / ((height/100)**2)
 	st.write("Hitungan BMInya adalah", BMI)
-if hitung:
-   BMI > 18,5
+if hitung > 18,5
 	st.write("Berat Badan Kurang")

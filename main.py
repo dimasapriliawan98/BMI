@@ -14,4 +14,4 @@ if hitung:
 	st.write("Hitungan BMInya adalah", BMI)
 if hitung:
    BMI > 18,5
-	st.write("Berat Badan Kurang", BMI)
+	st.write("Berat Badan Kurang")

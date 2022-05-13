@@ -11,7 +11,7 @@ hitung = st.button("Hitung BMI")
 
 if BMI < 18.5:
 	st.write("berat badan kurang", kriteria)
-elif BMI >= 18.5 and <= 22.9:
+else BMI >= 18.5 and <= 22.9:
 	st.write("Berat Badan Normal", kriteria)
 else BMI >= 23 and <= 29,9:
 	st.write("Berat Badan Berlebih (Obesitas)", kriteria) 

@@ -12,7 +12,11 @@ hitung = st.button("Hitung BMI")
 if hitung:
 	BMI = weight / ((height/100)**2)
 	st.write("Hitungan BMInya adalah ", BMI)
+if BMI:
 	st.write("BMI < 18,5", Berat Badan Kurang)
+	
 	st.write("BMI >= 18,5 <= 22,9", Berat Badan Normal)
+	
 	st.write("BMI >= 23 <= 29,9", Berat Badan Berlebih (Obesitas))
+	
 	st.write("BMI > 30", Obesitas)

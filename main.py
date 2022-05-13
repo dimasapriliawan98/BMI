@@ -7,7 +7,7 @@ BMI = (weight in kilograms / height in meters^2  )
 """)
 weight = st.number_input("Masukkan weight", 0)
 height = st.number_input("Masukkan height", 0)
-hitung = st.button("Hitung BMI") ("kriteria)")
+hitung = st.button("Hitung BMI")
 
 if hitung:
 	BMI = weight / ((height/100)**2)

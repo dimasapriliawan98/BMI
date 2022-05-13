@@ -9,13 +9,13 @@ weight = st.number_input("Masukkan weight", 0)
 height = st.number_input("Masukkan height", 0)
 hitung = st.button("Hitung BMI")
 
-if BMI < 18.5:
+if BMI < 18.5
 	kriteria="berat badan kurang"
-elif BMI >= 18.5 and <= 22.9:
+elif BMI >= 18.5 and <= 22.9
 	kriteria="Berat Badan Normal"
-else BMI >= 23 and <= 29,9:
+else BMI >= 23 and <= 29,9
 	kriteria="Berat Badan Berlebih (Obesitas)"
-else BMI > 30:
+else BMI > 30
 	kriteria="Obesitas"
 	st.write("kriteria", kriteria)
 	
